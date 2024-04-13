@@ -1,39 +1,32 @@
 # Credit Card Fraud Detection
 
 ## Overview
-This machine learning project focuses on detecting fraudulent transactions using Python and scikit-learn. The project utilizes logistic regression to model and identify suspicious activities from credit card transaction data.
+This machine learning project focuses on detecting fraudulent transactions using Python and scikit-learn. The project utilizes logistic regression to model and identify suspicious transactions.
 
 ## Technologies Used
-- **Python 3.x**: Main programming language used.
-- **Jupyter Notebook**: Interactive computing environment.
-- **Libraries**:
-  - `pandas` for data manipulation.
-  - `numpy` for numerical operations.
-  - `matplotlib` and `seaborn` for visualizations.
-  - `scikit-learn` for modeling and model evaluation.
+- Python 3.x
+- Jupyter Notebook
+- Libraries:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
 
 ## Dataset
-The dataset, sourced from Kaggle's "Credit Card Fraud Detection," includes transactions made by credit cards, labeled as fraudulent or legitimate. Features include transaction amount, time, and 28 PCA-transformed features.
+The dataset used in this project is the "Credit Card Fraud Detection" dataset from Kaggle. It contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where 492 out of 284,807 transactions were fraudulent. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
-[View the dataset here](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-
-## Features
-- **Data Exploration**: Analyze transaction distributions and feature correlations.
-- **Data Preprocessing**: Techniques to handle imbalanced data.
-- **Modeling**: Logistic regression is employed to predict fraudulent transactions.
-- **Evaluation**: Use accuracy score, confusion matrix, and classification report for model performance.
-- **Visualization**: Graphical representation of data and results for intuitive understanding.
+Please download the dataset from the following link:
+[Download the dataset here](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
 ## Getting Started
 
 ### Prerequisites
-Ensure you have Python installed and pip available for installing packages.
+You need to have Python installed on your machine. A package manager like pip is also required to install the Python packages used in this project.
 
 ### Installation
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/your-username/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
-
-
-
+1. **Clone the repository**:
+   To clone the repository to your local machine, use the following command:
+   ```bash
+   git clone https://github.com/your-username/credit-card-fraud-detection.git
+   cd credit-card-fraud-detection
