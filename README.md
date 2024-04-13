@@ -24,9 +24,33 @@ Please download the dataset from the following link:
 ### Prerequisites
 You need to have Python installed on your machine. A package manager like pip is also required to install the Python packages used in this project.
 
-### Installation
-1. **Clone the repository**:
-   To clone the repository to your local machine, use the following command:
-   ```bash
-   git clone https://github.com/AbhishekSrivastava1999/Credit-Card-Fraud-Detection.git
-   cd Credit-Card-Fraud-Detection
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/AbhishekSrivastava1999/Credit-Card-Fraud-Detection.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Credit-Card-Fraud-Detection
+    ```
+
+3. Install Python packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running the Notebook
+
+4. Start Jupyter Notebook to open the project file:
+
+    ```bash
+    jupyter notebook credit_card_fraud_detection.ipynb
+    ```
+
+With these instructions, users can easily clone your repository, install the required dependencies, and run the Jupyter Notebook file to explore your project.
+
