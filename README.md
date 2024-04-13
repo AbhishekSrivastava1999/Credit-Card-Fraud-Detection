@@ -28,5 +28,5 @@ You need to have Python installed on your machine. A package manager like pip is
 1. **Clone the repository**:
    To clone the repository to your local machine, use the following command:
    ```bash
-   git clone https://github.com/your-username/credit-card-fraud-detection.git
-   cd credit-card-fraud-detection
+   git clone https://github.com/AbhishekSrivastava1999/Credit-Card-Fraud-Detection.git
+   cd Credit-Card-Fraud-Detection
